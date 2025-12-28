@@ -1,0 +1,63 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Sweet Shop" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - list [ref=e6]:
+        - link "Sweets" [ref=e7] [cursor=pointer]:
+          - /url: /sweets
+        - listitem [ref=e8]:
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e10]:
+          - link "Login" [ref=e11] [cursor=pointer]:
+            - /url: /login
+        - listitem [ref=e12]:
+          - link "0 Basket" [ref=e13] [cursor=pointer]:
+            - /url: /basket
+            - generic [ref=e14]: "0"
+            - text: Basket
+  - generic [ref=e15]:
+    - banner [ref=e16]:
+      - img "Sale now on" [ref=e18]
+      - heading "Welcome to the sweet shop!" [level=1] [ref=e19]
+      - paragraph [ref=e20]: The sweetest online shop out there.
+      - link "Browse Sweets" [ref=e21] [cursor=pointer]:
+        - /url: /sweets
+    - heading "Most popular" [level=2] [ref=e22]
+    - paragraph [ref=e23]: Our most popular choice of retro sweets.
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - img "chocolate cups" [ref=e27]
+        - generic [ref=e28]:
+          - heading "Chocolate Cups" [level=4] [ref=e29]
+          - paragraph [ref=e30]: Candy Chocolate Cups.
+          - paragraph [ref=e31]: £1.00
+        - generic [ref=e33] [cursor=pointer]: Add to Basket
+      - generic [ref=e35]:
+        - img "bonbon" [ref=e36]
+        - generic [ref=e37]:
+          - heading "Bon Bons" [level=4] [ref=e38]
+          - paragraph [ref=e39]: Pink Strawberry Bonbons - sugar dusted, strawberry flavoured chewy sweets.
+          - paragraph [ref=e40]: £1.00
+        - generic [ref=e42] [cursor=pointer]: Add to Basket
+      - generic [ref=e44]:
+        - img "sherbert discs" [ref=e45]
+        - generic [ref=e46]:
+          - heading "Sherbert Discs" [level=4] [ref=e47]
+          - paragraph [ref=e48]: UFO's Sherbert Filled Flying Saucers.
+          - paragraph [ref=e49]: £0.95
+        - generic [ref=e51] [cursor=pointer]: Add to Basket
+      - generic [ref=e53]:
+        - img "sherbert straws" [ref=e54]
+        - generic [ref=e55]:
+          - heading "Sherbert Straws" [level=4] [ref=e56]
+          - paragraph [ref=e57]: Rainbow Dust Straws - Choose your colour.
+          - paragraph [ref=e58]: £0.75
+        - generic [ref=e60] [cursor=pointer]: Add to Basket
+  - contentinfo [ref=e61]:
+    - paragraph [ref=e63]: Sweet Shop Project 2018
+```
